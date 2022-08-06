@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 
 * {
   margin: 0;

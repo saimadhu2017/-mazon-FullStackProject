@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "this will be the backend or middlewarefor client and Database",
   "main": "app.js",
   "scripts": {

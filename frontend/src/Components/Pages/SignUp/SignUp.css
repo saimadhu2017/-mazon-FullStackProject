@@ -1,0 +1,23 @@
+.signUp {
+    background-color: #000000;
+    padding: 30px;
+}
+
+.textHeading {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnSubmit {
+    margin-top: 20px;
+    align-self: center;
+    background-color: #001cac;
+    border-color: #001cac;
+    color: white;
+}
