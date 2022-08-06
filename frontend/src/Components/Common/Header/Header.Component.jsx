@@ -1,0 +1,18 @@
+import './Header.css';
+
+function Header() {
+    return (
+        <div className='header'>
+            <a href={"todo"}><img src={require("../../../resources/icons/icon.png")} alt="Logo" className='logo' /></a>
+            <div className="nav">
+                <ul className="navItems">
+                    <li className="navItem"><a href={"todo"}>Home</a></li>
+                    <li className="navItem"><a href={"todo"}>Login</a></li>
+                    <li className="navItem"><a href={"todo"}><button>Sign Up</button></a></li>
+                </ul>
+            </div>
+        </div>
+    );
+}
+
+export default Header;
