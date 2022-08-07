@@ -1,0 +1,35 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 10vh;
+}
+
+.pageContainer {
+    display: flex;
+    height: 80vh;
+}
+
+.footer {
+    height: 10vh;
+}
+
+@media screen and (max-height:680px) {
+    .page {
+        display: block;
+    }
+
+    .header {
+        height: auto;
+    }
+
+    .pageContainer {
+        height: auto;
+    }
+
+    .footer {
+        height: auto;
+    }
+}

@@ -1,6 +1,8 @@
 .signUp {
     background-color: #000000;
-    padding: 30px;
+    padding: 100px;
+    width: 50vw;
+    border: 1px solid green;
 }
 
 .textHeading {
@@ -20,4 +22,21 @@ form {
     background-color: #001cac;
     border-color: #001cac;
     color: white;
+}
+
+.inForm {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-height:775px),
+(max-width:850px) {
+    .signUp {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .signUp {
+        width: 100vw;
+    }
 }
