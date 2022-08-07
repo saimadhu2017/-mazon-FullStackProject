@@ -1,9 +1,18 @@
 import './Describe.css';
+import Typewriter from 'typewriter-effect';
 
 function Describe() {
     return (
         <div className="describe">
-            Hi this is Describe Page
+            <div className="rectangle">
+                <span className="insideText">
+                    <Typewriter options={{
+                        strings:"Hi, There Welcome to the signup page",
+                        autoStart:true,
+                        loop:true
+                    }}/>
+                </span>
+            </div>
         </div>
     );
 }

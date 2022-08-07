@@ -1,8 +1,13 @@
 .signUp {
     background-color: #000000;
-    padding: 100px;
     width: 50vw;
-    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+}
+
+.singUpBox {
+    align-self: center;
+    width: 40vw;
 }
 
 .textHeading {
@@ -28,15 +33,13 @@ form {
     margin-bottom: 10px;
 }
 
-@media screen and (max-height:775px),
-(max-width:850px) {
-    .signUp {
-        padding: 30px;
-    }
-}
-
 @media screen and (max-width:600px) {
     .signUp {
+        width: 100vw;
+        padding: 30px;
+    }
+
+    .singUpBox {
         width: 100vw;
     }
 }

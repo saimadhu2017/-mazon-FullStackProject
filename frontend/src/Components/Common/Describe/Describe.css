@@ -1,7 +1,27 @@
 .describe {
     background-color: black;
     width: 50vw;
-    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle {
+    height: 220px;
+    width: 220px;
+    align-self: center;
+    background-color: #001CAD;
+    border-radius: 50px;
+    transform: rotate(-45deg);
+    display: flex;
+    justify-content: center;
+}
+
+.insideText {
+    align-self: center;
+    transform: rotate(45deg);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 @media screen and (max-width:600px) {
