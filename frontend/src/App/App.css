@@ -7,25 +7,12 @@
     height: 10vh;
 }
 
-.pageContainer {
-    display: flex;
-    height: 80vh;
-}
-
 .footer {
     height: 10vh;
 }
 
-@media screen and (max-height:680px) {
-    .page {
-        display: block;
-    }
-
+@media screen and (max-height:640px) {
     .header {
-        height: auto;
-    }
-
-    .pageContainer {
         height: auto;
     }
 

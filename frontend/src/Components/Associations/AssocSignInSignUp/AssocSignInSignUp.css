@@ -1,0 +1,17 @@
+.pageContainerSingUp,
+.pageContainerSingIn {
+    display: flex;
+    height: 80vh;
+}
+
+@media screen and (max-height:640px) {
+    .pageContainerSingUp {
+        height: auto;
+    }
+}
+
+@media screen and (max-height:320px) {
+    .pageContainerSingIn {
+        height: auto;
+    }
+}
